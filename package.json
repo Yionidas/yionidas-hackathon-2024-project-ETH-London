@@ -26,5 +26,14 @@
   "keywords": [
     "celo-composer",
     "celo"
-  ]
+  ],
+  "dependencies": {
+    "@celo/abis": "^11.0.0",
+    "@celo/identity": "^5.1.1",
+    "viem": "^1.21.4"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.1"
+  }
 }
